@@ -9,41 +9,23 @@ React boilerplate with ES2015, Express.js, and Webpack
 - React (v16) + Redux (v3) + React Router (v4)
 - Express.js (v4) as production and development server
 - Webpack 4 (production and development configurations)
-- SCSS support (+ sanitize.css included)
+- SCSS and LESS support (+ sanitize.css included)
 - ES2015+
 
 ## Features
 - preconfigured router
-- React Material UI example theme
+- Ant Design configured
 - preconfigured modal windows
 - preconfigured eslint and Prettier code formatter
 - React Hot Loader
 - Linux/MacOS/Windows
-
-## Screenshots
-
-Demo UI view:
-
-![Demo view](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew2-ui-screenshot.png)
-
-Development `.js` bundles:
-
-![Development js bundles](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew-stat-dev.png)
-
-Production `.js` bundles:
-
-![Production js bundles](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew-stat-prod.png)
-
-Production mode server output:
-
-![Production js bundles](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew-log-prod.png)
 
 ## Usage
 
 ### Installation
 ```bash
 git clone git@github.com:maraja/react-dashboard.git
-cd react-express-webpack
+cd react-dashboard
 npm install
 
 # remove boilerplate git references
